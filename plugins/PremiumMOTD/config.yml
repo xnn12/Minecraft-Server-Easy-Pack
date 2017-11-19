@@ -1,0 +1,12 @@
+#Welcome to PremiumMOTD's config made by alessio2010
+#This plugin is to display MOTDS when the server is full or not full
+#Color codes are compatiable, please do drop a review if you liked it!
+
+
+#MOTD to display when the server isn't full
+
+notfullmotd: '&4欢迎加入服务器！'
+
+#MOTD to display when the server is full
+
+fullmotd: '对不起，服务器现已满人'
