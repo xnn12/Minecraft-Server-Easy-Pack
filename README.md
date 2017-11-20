@@ -1,4 +1,4 @@
-# <center>Minecraft 服务器简易整合包</center>
+# <div align="center">Minecraft 服务器简易整合包</div>
 一个由Little_cow整合的一个整合包，适用于Linux，比较轻便<br>
 版本 ： 1.12.2<br>
 插件 ：
