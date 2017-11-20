@@ -3,6 +3,6 @@
 比较轻便<br>
 版本 ： 1.12.2<br>
 插件 ：
-> + LaggRemover「延迟降低」
-> + FunJoinMessage「有趣的加入消息」
-> + PremiumMOTD「彩色MOTD」
+> + [LaggRemover](http://www.mcbbs.net/forum.php?mod=viewthread&tid=603072)「延迟降低」
+> + [FunJoinMessage](http://www.mcbbs.net/forum.php?mod=viewthread&tid=729325)「有趣的加入消息」
+> +  [PremiumMOTD](http://www.mcbbs.net/forum.php?mod=viewthread&tid=693395)「彩色MOTD」
