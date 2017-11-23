@@ -12,7 +12,7 @@
 
 食用方法 ： <br>
 ```sh
-$ git clone https://github.com/xnn12/Minecraft-Server-Easy-Pack.git .
+$ git clone https://github.com/xnn12/Minecraft-Server-Easy-Pack.git ./server
 $ cd server
 $ ./start.sh
 ```
