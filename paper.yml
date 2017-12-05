@@ -14,6 +14,8 @@ config-version: 13
 settings:
   enable-player-collisions: true
   player-auto-save-rate: -1
+  load-permissions-yml-before-plugins: true
+  bungee-online-mode: true
   sleep-between-chunk-saves: false
   region-file-cache-size: 256
   save-empty-scoreboard-teams: false
@@ -21,8 +23,6 @@ settings:
   remove-invalid-statistics: false
   min-chunk-load-threads: 2
   suggest-player-names-when-null-tab-completions: true
-  load-permissions-yml-before-plugins: true
-  bungee-online-mode: true
 timings:
   enabled: true
   verbose: true
@@ -34,80 +34,11 @@ timings:
   history-length: 3600
 messages:
   kick:
+    authentication-servers-down: ''
     flying-player: Flying is not enabled on this server
     flying-vehicle: Flying is not enabled on this server
-    authentication-servers-down: ''
 world-settings:
   default:
-    keep-spawn-loaded-range: 8
-    auto-save-interval: -1
-    nether-ceiling-void-damage: false
-    allow-non-player-entities-on-scoreboards: false
-    frosted-ice:
-      enabled: true
-      delay:
-        min: 20
-        max: 40
-    hopper:
-      push-based: false
-    disable-explosion-knockback: false
-    elytra-hit-wall-damage: true
-    parrots-are-unaffected-by-player-movement: false
-    grass-spread-tick-rate: 1
-    game-mechanics:
-      disable-chest-cat-detection: false
-      disable-end-credits: false
-    use-alternate-fallingblock-onGround-detection: false
-    non-player-arrow-despawn-rate: -1
-    prevent-tnt-from-moving-in-water: false
-    keep-spawn-loaded: false
-    anti-xray:
-      enabled: false
-      engine-mode: 1
-      chunk-edge-mode: 1
-      max-chunk-section-index: 3
-      hidden-blocks:
-      - gold_ore
-      - iron_ore
-      - coal_ore
-      - lapis_ore
-      - mossy_cobblestone
-      - obsidian
-      - chest
-      - diamond_ore
-      - redstone_ore
-      - lit_redstone_ore
-      - clay
-      - emerald_ore
-      - ender_chest
-      replacement-blocks:
-      - stone
-      - planks
-    armor-stands-do-collision-entity-lookups: true
-    spawner-nerfed-mobs-should-jump: false
-    baby-zombie-movement-speed: 0.5
-    allow-leashing-undead-horse: false
-    disable-thunder: false
-    skeleton-horse-thunder-spawn-chance: 0.01
-    disable-ice-and-snow: false
-    fire-physics-event-for-redstone: false
-    mob-spawner-tick-rate: 1
-    all-chunks-are-slime-chunks: false
-    container-update-tick-rate: 1
-    disable-teleportation-suffocation-check: false
-    enable-treasure-maps: true
-    treasure-maps-return-already-discovered: false
-    generator-settings:
-      canyon: true
-      caves: true
-      dungeon: true
-      fortress: true
-      mineshaft: true
-      monument: true
-      stronghold: true
-      temple: true
-      village: true
-      flat-bedrock: false
     portal-search-radius: 128
     queue-light-updates: false
     optimize-explosions: true
@@ -148,3 +79,72 @@ world-settings:
     filter-nbt-data-from-spawn-eggs-and-related: true
     max-entity-collisions: 8
     disable-creeper-lingering-effect: false
+    disable-teleportation-suffocation-check: false
+    container-update-tick-rate: 1
+    game-mechanics:
+      disable-end-credits: false
+      disable-chest-cat-detection: false
+    enable-treasure-maps: true
+    treasure-maps-return-already-discovered: false
+    grass-spread-tick-rate: 1
+    parrots-are-unaffected-by-player-movement: false
+    disable-explosion-knockback: false
+    elytra-hit-wall-damage: true
+    use-alternate-fallingblock-onGround-detection: false
+    prevent-tnt-from-moving-in-water: false
+    non-player-arrow-despawn-rate: -1
+    keep-spawn-loaded: false
+    anti-xray:
+      enabled: false
+      engine-mode: 1
+      chunk-edge-mode: 1
+      max-chunk-section-index: 3
+      hidden-blocks:
+      - gold_ore
+      - iron_ore
+      - coal_ore
+      - lapis_ore
+      - mossy_cobblestone
+      - obsidian
+      - chest
+      - diamond_ore
+      - redstone_ore
+      - lit_redstone_ore
+      - clay
+      - emerald_ore
+      - ender_chest
+      replacement-blocks:
+      - stone
+      - planks
+    armor-stands-do-collision-entity-lookups: true
+    spawner-nerfed-mobs-should-jump: false
+    baby-zombie-movement-speed: 0.5
+    allow-leashing-undead-horse: false
+    disable-thunder: false
+    skeleton-horse-thunder-spawn-chance: 0.01
+    disable-ice-and-snow: false
+    fire-physics-event-for-redstone: false
+    mob-spawner-tick-rate: 1
+    all-chunks-are-slime-chunks: false
+    nether-ceiling-void-damage: false
+    allow-non-player-entities-on-scoreboards: false
+    hopper:
+      push-based: false
+    frosted-ice:
+      enabled: true
+      delay:
+        min: 20
+        max: 40
+    keep-spawn-loaded-range: 8
+    auto-save-interval: -1
+    generator-settings:
+      canyon: true
+      caves: true
+      dungeon: true
+      fortress: true
+      mineshaft: true
+      monument: true
+      stronghold: true
+      temple: true
+      village: true
+      flat-bedrock: false
